@@ -68,7 +68,7 @@ img {
 }
 
 .main-nav {
-  margin: 50px 0;
+  margin: 30px 0 40px;
 }
 
 .profile-image {
@@ -121,4 +121,96 @@ img {
 
 .footer-nav {
   display: none;
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+  .main-nav li,
+  .main-nav a {
+    display: inline;
+  }
+
+  .main-nav a {
+    background-color: #f2f2f2;
+    margin: 0 20px;
+  }
+
+  .profile-image {
+    width: 300px;
+    padding-left: 50px;
+    float: right;
+  }
+
+  .main-header,
+  .intro {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+.description {
+  margin: 30px 30px;
+}
+
+.nav-top {
+  display: none;
+}
+
+
+.footer-name,
+.footer-nav {
+  display: inline-block;
+  font-size: 1em;
+}
+
+.footer-nav {
+  float: right;
+}
+
+.footer-name {
+  float: left;
+}
+
+
+  .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
+
+@media (min-width: 1025px) {
+  .name,
+  .main-nav li,
+  .main-nav a {
+    display: inline;
+  }
+
+  .name {
+    float: left;
+  }
+
+  .main-nav {
+    float: right;
+  }
+
+  .profile-image {
+    width: 50%;
+  }
+
+  .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
 }

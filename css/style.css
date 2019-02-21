@@ -1,0 +1,124 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+p {
+  font-size: 0.95em;
+  margin-bottom: 1.8em;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.wrapper {
+  padding: 0 1em;
+}
+
+.main-content {
+  background-color: #fff;
+  color: #4a4a4a;
+  padding-top: 20px;
+}
+.name {
+  font-size: 1.5626em;
+}
+
+.main-nav a,
+.contact-title,
+.nav-top a {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.name a,
+.main-nav a,
+.contact-title,
+.nav-top a {
+  color: #4a4a4a;
+}
+
+.main-nav a {
+  display: block;
+  background-color: #fff;
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+
+.main-nav {
+  margin: 50px 0;
+}
+
+.profile-image {
+  width: 70%;
+}
+
+.description,
+.contact-description,
+.phone,
+.email {
+  color: #7f7f7f;
+}
+
+.intro,
+.portfolio,
+.contact,
+.main-footer {
+  padding: 30px 0;
+}
+
+.description,
+.portfolio-description,
+.contact-description {
+  margin: 0 25px;
+}
+
+.phone,
+.email {
+  margin-bottom: 0px;
+}
+
+.main-footer {
+  padding: 5px 0;
+  border-top: 0.5px solid #7f7f7f;
+}
+
+.footer-name,
+.nav-top {
+  display: inline-block;
+  font-size: 1em;
+}
+
+.nav-top {
+  float: right;
+}
+
+.footer-name {
+  float: left;
+}
+
+.footer-nav {
+  display: none;
+}

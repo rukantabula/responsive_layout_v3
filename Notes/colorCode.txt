@@ -1,0 +1,4 @@
+Body background color -> #f2f2f2
+name, navigation, main-content text color -> #4a4a4a
+main content background-color -> #fff
+description, footer text color -> #7f7f7f

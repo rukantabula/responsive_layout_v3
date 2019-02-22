@@ -133,7 +133,7 @@ img {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .main-nav li,
   .main-nav a {
     display: inline;
@@ -219,7 +219,7 @@ img {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .wrapper {
     margin-top: 70px;
   }
